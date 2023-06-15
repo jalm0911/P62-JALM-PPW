@@ -12,19 +12,18 @@
 }
 
 .item {
-    border: 1px solid black;
     padding: 10px;
     background-color: dodgerblue;
 }
 
 .header {
     grid-area: header;
-    background-color: gray;
+    background-color: chocolate;
 }
 
 .left {
     grid-area: left;
-    background-color: orange;
+    background-color: darkgrey;
 }
 
 .content {
@@ -39,5 +38,5 @@
 
 .footer {
     grid-area: footer;
-    background-color: yellow;
+    background-color: orange;
 }
