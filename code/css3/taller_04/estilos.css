@@ -5,11 +5,12 @@
 }
 .container {
     display: grid;
-    grid-template: 150px 1fr 50px / 200px 1fr;
-    grid-template-areas: "header header" "left content" "footer footer";
+    grid-template: 200px 1fr 200px / 325px 1fr 325px;
+    grid-template-areas: "left header header" "left content right" "footer footer right";
     grid-gap: 5px;
     height: 100vh;
 }
+
 .item {
     border: 1px solid black;
     padding: 10px;
@@ -18,16 +19,25 @@
 
 .header {
     grid-area: header;
+    background-color: gray;
 }
 
 .left {
     grid-area: left;
+    background-color: orange;
 }
 
 .content {
     grid-area: content;
+    background-color: green;
+}
+
+.right {
+    grid-area: right;
+    background-color: black;
 }
 
 .footer {
     grid-area: footer;
+    background-color: yellow;
 }
