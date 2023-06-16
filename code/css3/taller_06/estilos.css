@@ -12,8 +12,48 @@
     height: 100vh;
 }
 
-.item {
+.item1 {
     border: 1px solid blue;
     padding: 10px;
     margin: 10px;
+    height: 350px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+.item2 {
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+.item3 {
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 10px;
+    height: 300px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+.item4 {
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 10px;
+    height: 125px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+.item5 {
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 10px;
+    height: 300px;
+    width: 150px;
+    display: flex;
+    align-items: center;
 }
