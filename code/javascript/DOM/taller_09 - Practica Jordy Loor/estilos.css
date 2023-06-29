@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template: 150px 1fr 50px / 200px 1fr;
+    grid-template-areas: "header header" "left content" "footer footer";
+    grid-gap: 5px;
+    height: 100vh;
+}
+
+.item {
+    padding: 10px;
+    border: 1px solid orange;
+}
+
+.header {
+    grid-area: header;
+    background-color: goldenrod;
+}
+
+.left {
+    grid-area: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    grid-area: content;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja {
+    margin: 5px;
+    padding: 5px;
+    width: 400px;
+}
+
+.label {
+    display: block;
+    width: 200px;
+    float: left;
+    text-align: right;
+    margin-left: 10px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: goldenrod;
+}
+
+.menu {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    color: black;
+    background-color: rgb(229,163, 101);
+    text-decoration: none;
+}
+.menu:first-child {
+    background-color: rgb(255, 228, 107);
+}
+
+.residencia {
+    border: 1px solid black;
+    width: 700px;
+    height: 400px;
+}
+
+.caja1 {
+    position: absolute;
+    top: 260px;
+}
+.caja2 {
+    display: flex;
+    position: absolute;
+    top: 260px;
+}
+
+h2 {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.c1, .c2, .c4 {
+    background-color: green;
+}
+.c3 {
+    background-color: yellow;
+}
+
